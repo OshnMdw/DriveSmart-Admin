@@ -2,7 +2,7 @@ import React from 'react'
 
 function AdminPageView() {
   return (
-    <div>AdminPageView</div>
+    <div className=' text-center  '>AdminPageView</div>
   )
 }
 
