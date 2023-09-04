@@ -9,15 +9,13 @@ function NarbarComponent() {
     <div  className='navStyle' >
        <Navbar scrolling dark collapseOnSelect expand="md" className="bg-body-tertiary " >
       <Container>
-        <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/">DriveSmart-Admin</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Item style={{padding:"0 1em 0 1em"}} ><Link to='/'>Home</Link></Nav.Item>
-            <Nav.Item style={{padding:"0 1em 0 1em"}}><Link to='#aboutus'>About us</Link></Nav.Item>
-            <Nav.Item style={{padding:"0 1em 0 1em"}}><Link to='#contactus'>Contact us</Link></Nav.Item>
-            <Nav.Item style={{padding:"0 1em 0 1em"}}><Link to='/signup'>Sign up</Link></Nav.Item>
-            <Nav.Item style={{padding:"0 1em 0 1em"}}><Link to='/login'>Login</Link></Nav.Item>
+          <Nav className="ms-auto ">
+            <Nav.Item style={{padding:"0 1em 0 1em"}} ><Link className=' text-dark text-decoration-none' to='/'>Admin Panel</Link></Nav.Item>
+            <Nav.Item style={{padding:"0 1em 0 1em"}}><Link className=' text-dark text-decoration-none' to='#aboutus'>About us</Link></Nav.Item>
+            <Nav.Item style={{padding:"0 1em 0 1em"}}><Link className=' text-dark text-decoration-none' to='#contactus'>Contact us</Link></Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
