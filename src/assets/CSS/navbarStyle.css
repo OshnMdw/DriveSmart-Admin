@@ -1,0 +1,15 @@
+.navStyle{
+    position: sticky; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+    /* display: flex; */
+    /* padding: 0.6em; */
+    margin: 0;
+    align-items:center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    user-select: none;
+  }
