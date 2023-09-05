@@ -2,7 +2,8 @@ import React from 'react'
 import HeadingComponent from '../components/HeadingComponent.js'
 import '../assets/CSS/allpopquizStyle.css'
 import OutFrame from '../components/OutFrame'
-function AllQuizView() {
+
+function AllPopQuizView() {
   const heading = [
     {
       id:"1",
@@ -54,4 +55,4 @@ function AllQuizView() {
   )
 }
 
-export default AllQuizView
+export default AllPopQuizView
