@@ -1,8 +1,12 @@
 import React from 'react'
+import OutFrame from '../components/OutFrame'
 
 function AdminPageView() {
   return (
-    <div className=' text-center  '>AdminPageView</div>
+    <OutFrame>
+      <div className=' text-center  '>AdminPageView</div>
+    </OutFrame>
+    
   )
 }
 
