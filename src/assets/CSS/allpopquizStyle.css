@@ -1,0 +1,45 @@
+.courseview{
+    background-color: rgb(255, 255, 255);
+}
+
+.courseHeading{
+    background-color:#115a70bc;
+}
+.progress-bg{
+    background-color: #004d088b;
+}
+
+.xyz {
+    background-size: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+.btn-circle.btn-md {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border-radius: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.buttonstyles{
+    display:flex;
+    justify-content: end;
+}
