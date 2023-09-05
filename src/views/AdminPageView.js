@@ -1,8 +1,12 @@
 import React from 'react'
+import OutFrame from '../components/OutFrame'
 
 function AdminPageView() {
   return (
-    <div>AdminPageView</div>
+    <OutFrame>
+        <div>AdminPageView</div>
+    </OutFrame>
+    
   )
 }
 
