@@ -13,6 +13,9 @@ function TinyMCEEditor() {
 
   return (
     <>
+    <Row>
+      
+    </Row>
      <Editor
         apiKey= {process.env.REACT_APP_TINY_API}
         onInit={(evt, editor) => {

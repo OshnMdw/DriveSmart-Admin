@@ -7,8 +7,8 @@ import AllQuizView from '../views/AllQuizView';
 import AllPopQuizView from '../views/AllPopQuizView';
 import AllUsersView from '../views/AllUsersView';
 import SignUp from '../views/SignUp';
-import Login from '../views/Login';
-import PasswordVerify from '../components/PasswordVerify';
+// import Login from '../views/Login';
+// import PasswordVerify from '../components/PasswordVerify';
 
 function AllRoutes() {
   return (
@@ -20,8 +20,8 @@ function AllRoutes() {
           <Route path='/allpopquizzes'  element={<AllPopQuizView />}/>
           <Route path='/allusers'  element={<AllUsersView />}/>
           <Route path='/signUp'  element={<SignUp/>}/>
-          <Route path='/login'  element={<Login/>}/>
-          <Route path='/passwordVerify'  element={<PasswordVerify/>}/>
+          {/* <Route path='/login'  element={<Login/>}/>
+          <Route path='/passwordVerify'  element={<PasswordVerify/>}/> */}
         </Route>
      </Routes>
   )
