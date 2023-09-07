@@ -9,6 +9,8 @@ import AllUsersView from '../views/AllUsersView';
 import SignUp from '../views/SignUp';
 import Login from '../views/Login';
 import PasswordVerify from '../components/PasswordVerify';
+import ResetPassword from '../components/ResetPassword';
+import PasswordUpdated from '../components/UpdateSuccessful';
 
 function AllRoutes() {
   return (
@@ -21,7 +23,9 @@ function AllRoutes() {
           <Route path='/allusers'  element={<AllUsersView />}/>
           <Route path='/signUp'  element={<SignUp/>}/>
           <Route path='/login'  element={<Login/>}/>
+          <Route path='/resetPassword' element = {<ResetPassword/>}/>
           <Route path='/passwordVerify'  element={<PasswordVerify/>}/>
+          <Route path='/passwordupdated' element={<PasswordUpdated/>}/>
         </Route>
      </Routes>
   )
