@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Editor } from '@tinymce/tinymce-react';
 import PlaceHolderConponent from './PlaceHolderConponent';
-
+import { Row } from 'react-bootstrap';
 function TinyMCEEditor() {
   const editorRef = useRef(null);
   const [isloaded,setIsloaded] = useState(false);
