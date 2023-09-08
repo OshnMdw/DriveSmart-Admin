@@ -8,7 +8,7 @@ function EditVideo() {
   return (
     <Container className=' mt-3 p-2'>
         <Row>
-            <h4 className=' text-center '>Video & Script Edit/Add</h4>
+            <h4 className=' text-center '>Add/Edit Video & Script </h4>
             <Col  xs={10} className='shadow-sm m-auto p-3 border border-1 rounded rounded-2'> 
                 <Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">

@@ -11,6 +11,8 @@ import Login from '../views/Login';
 import PasswordVerify from '../components/PasswordVerify';
 import ResetPassword from '../components/ResetPassword';
 import PasswordUpdated from '../components/UpdateSuccessful';
+import AddPopQuizView from '../views/AddPopQuizView';
+import AddQuizView from '../views/AddQuizView';
 
 function AllRoutes() {
   return (
@@ -20,6 +22,8 @@ function AllRoutes() {
           <Route path='/editvideo'  element={<EditVideo />}/>
           <Route path='/allquizzes'  element={<AllQuizView />}/>
           <Route path='/allpopquizzes'  element={<AllPopQuizView />}/>
+          <Route path='/addpopquiz' element={<AddPopQuizView/>} />
+          <Route path='/addquiz' element={<AddQuizView/>} />
           <Route path='/allusers'  element={<AllUsersView />}/>
           <Route path='/signUp'  element={<SignUp/>}/>
           <Route path='/login'  element={<Login/>}/>
