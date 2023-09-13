@@ -3,9 +3,8 @@ import Card from 'react-bootstrap/Card';
 import NavBarInner from "../components/NavBarInner";
 import OutFrame from "../components/OutFrame";
 import '../assets/CSS/adminDashboard.css'
-
-
-
+import HeadingsView from "./HeadingsView";
+import { Link, redirect } from "react-router-dom";
 
 const AdminDashboard = () => {
     return (
@@ -18,8 +17,8 @@ const AdminDashboard = () => {
                         <Card.Body style={{display : 'flex',flexDirection : 'column',width : '100%',justifyContent : 'center',alignItems : 'center'}}>
                             <Card.Title><p className="CourseHeading" style={{ textAlign: 'center' }}>Handle Study materials</p></Card.Title>
                             <div style={{display : 'flex',flexDirection : 'column',width : '80%',rowGap : 10 , justifyContent : 'center',alignItems:'center'}}>
-                            <Button className="cardButton">Show all headings</Button>
-                            <Button className="cardButton">Show all practice tests</Button>
+                            <Link role='button' className="cardButton btn" to='/adminDashBoard/headings'>Show all headings</Link>
+                            <Link role='button' className="cardButton btn" to='/adminDashBoard/headings'>Show all practice tests</Link>
                             </div>
                             
                             
@@ -32,9 +31,9 @@ const AdminDashboard = () => {
                         <Card.Body style={{display : 'flex',flexDirection : 'column',width : '100%',justifyContent : 'center',alignItems : 'center'}}>
                             <Card.Title><p className="CourseHeading" style={{ textAlign: 'center' }}>Handle Study materials</p></Card.Title>
                             <div style={{display : 'flex',flexDirection : 'column',width : '80%',rowGap : 10 , justifyContent : 'center',alignItems:'center'}}>
-                            <Button className="cardButton">Show all users</Button>
-                            <Button className="cardButton">Show all complaints</Button>
-                            <Button className="cardButton">Show all refund requests</Button>
+                            <Link role='button' className="cardButton btn" to='/adminDashBoard/headings'>Show all users</Link>
+                            <Link role='button' className="cardButton btn" to='/adminDashBoard/headings'>Show all complaints</Link>
+                            <Link role='button' className="cardButton btn" to='/adminDashBoard/headings'>Show all refund requests</Link>
                             </div>
                             
                             
@@ -47,8 +46,7 @@ const AdminDashboard = () => {
                         <Card.Body style={{display : 'flex',flexDirection : 'column',width : '100%',justifyContent : 'center',alignItems : 'center'}}>
                             <Card.Title><p className="CourseHeading" style={{ textAlign: 'center' }}>Handle Study materials</p></Card.Title>
                             <div style={{display : 'flex',flexDirection : 'column',width : '80%',rowGap : 10 , justifyContent : 'center',alignItems:'center'}}>
-                            <Button className="cardButton">Generate reports</Button>
-                            
+                            <Link role='button' className="cardButton btn" to='/adminDashBoard/headings'>Generate reports</Link>
                             </div>
                             
                             

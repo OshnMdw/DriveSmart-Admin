@@ -14,6 +14,7 @@ import PasswordUpdated from '../components/UpdateSuccessful';
 import AddPopQuizView from '../views/AddPopQuizView';
 import AddQuizView from '../views/AddQuizView';
 import AdminDashboard from '../views/AdminDashboard';
+import HeadingsView from '../views/HeadingsView';
 
 function AllRoutes() {
   return (
@@ -32,6 +33,7 @@ function AllRoutes() {
           <Route path='/passwordVerify'  element={<PasswordVerify/>}/>
           <Route path='/passwordupdated' element={<PasswordUpdated/>}/>
           <Route path = '/adminDashBoard' element={<AdminDashboard/>}/>
+          <Route path='/adminDashBoard/headings' element = {<HeadingsView/>}/>
         </Route>
      </Routes>
   )

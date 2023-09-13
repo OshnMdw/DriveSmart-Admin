@@ -9,3 +9,7 @@
 .cardButton:hover{
     background-color: #166E89;
 }
+
+.clickableHeading{
+    background-color: white;
+}
