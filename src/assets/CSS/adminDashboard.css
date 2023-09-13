@@ -1,0 +1,11 @@
+.cardButton{
+    background-color: #B5E3EA;
+    border: none ;
+    font-family : 'Poppins';
+    font-size : 14px;
+    width: 80%;
+    color: black;
+}
+.cardButton:hover{
+    background-color: #166E89;
+}
