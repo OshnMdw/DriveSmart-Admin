@@ -15,6 +15,7 @@ import AddPopQuizView from '../views/AddPopQuizView';
 import AddQuizView from '../views/AddQuizView';
 import AdminDashboard from '../views/AdminDashboard';
 import HeadingsView from '../views/HeadingsView';
+import AddHeadingView from '../views/AddHeadingView';
 
 function AllRoutes() {
   return (
@@ -34,6 +35,7 @@ function AllRoutes() {
           <Route path='/passwordupdated' element={<PasswordUpdated/>}/>
           <Route path = '/adminDashBoard' element={<AdminDashboard/>}/>
           <Route path='/adminDashBoard/headings' element = {<HeadingsView/>}/>
+          <Route path='/adminDashBoard/headings/addHeading' element = {<AddHeadingView/>}/>
         </Route>
      </Routes>
   )
