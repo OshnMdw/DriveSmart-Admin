@@ -3,8 +3,8 @@ import Card from 'react-bootstrap/Card';
 import NavBarInner from "../components/NavBarInner";
 import OutFrame from "../components/OutFrame";
 import '../assets/CSS/adminDashboard.css'
-import AdminCard from "../components/adminCard";
-import ButtonContext from "../context/ButtonContext";
+
+
 
 
 const AdminDashboard = () => {
