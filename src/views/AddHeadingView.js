@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import OutFrame from '../components/OutFrame';
+import FrameComponent from '../components/FrameComponent';
 
 function AddHeadingView() {
     return (
-        <OutFrame>
+        <FrameComponent>
             <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
                 <div style={{ width: '80%', backgroundColor: '#54849A', margin: 10, color: 'white', borderRadius: 10 }}>
                     <p style={{ textAlign: 'center' }} className="PageHeading">Show all study materials</p>
@@ -33,7 +33,7 @@ function AddHeadingView() {
             </div>
 
 
-        </OutFrame>
+        </FrameComponent>
 
 
     );

@@ -43,3 +43,4 @@ export const ModalProvider = ({children})=>{
         </ModalContext.Provider>
       );
 }
+

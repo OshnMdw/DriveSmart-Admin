@@ -1,7 +1,7 @@
 import React from 'react'
 import HeadingComponent from '../components/HeadingComponent.js'
 import '../assets/CSS/allquizStyle.css'
-import OutFrame from '../components/OutFrame'
+import FrameComponent from '../components/FrameComponent'
 function AllQuizView() {
   const heading = [
     {
@@ -28,7 +28,7 @@ function AllQuizView() {
 ]
 
   return (
-    <OutFrame>
+    <FrameComponent>
     <div className=' courseview p-0 container-fluid'>
       <div className='d-flex m-0 flex-row justify-content-center'>
         
@@ -50,7 +50,7 @@ function AllQuizView() {
         </div>
       </div>
     </div>
-    </OutFrame>
+    </FrameComponent>
   )
 }
 

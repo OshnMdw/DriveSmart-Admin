@@ -1,7 +1,7 @@
 import React from 'react'
 import HeadingComponent from '../components/UsersHeadingComponent.js'
 import '../assets/CSS/allusersStyle.css'
-import OutFrame from '../components/OutFrame'
+import FrameComponent from '../components/FrameComponent'
 function AllUsersView() {
   const heading = [
     {
@@ -28,7 +28,7 @@ function AllUsersView() {
 ]
 
   return (
-    <OutFrame>
+    <FrameComponent>
     <div className=' courseview p-0 container-fluid'>
       <div className='d-flex m-0 flex-row justify-content-center'>
         
@@ -47,7 +47,7 @@ function AllUsersView() {
         </div>
       </div>
     </div>
-    </OutFrame>
+    </FrameComponent>
   )
 }
 

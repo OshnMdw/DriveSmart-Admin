@@ -1,14 +1,14 @@
 import { Button } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import NavBarInner from "../components/NavBarInner";
-import OutFrame from "../components/OutFrame";
+import FrameComponent from "../components/FrameComponent";
 import '../assets/CSS/adminDashboard.css'
 import HeadingsView from "./HeadingsView";
 import { Link, redirect } from "react-router-dom";
 
 const AdminDashboard = () => {
     return (
-        <OutFrame>
+        <FrameComponent>
             <div style={{display : 'flex',justifyContent : 'center',alignItems : 'center',flexDirection : 'column'}}>
 
                 <p className="PageHeading" style={{ textAlign: 'center', paddingTop: 10 }}>Welcome to Admin Panel</p>
@@ -58,7 +58,7 @@ const AdminDashboard = () => {
             </div>
 
 
-        </OutFrame>
+        </FrameComponent>
 
     )
 }

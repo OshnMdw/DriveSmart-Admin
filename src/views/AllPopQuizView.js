@@ -1,7 +1,7 @@
 import React from 'react'
 import HeadingComponent from '../components/HeadingComponent.js'
 import '../assets/CSS/allpopquizStyle.css'
-import OutFrame from '../components/OutFrame'
+import FrameComponent from '../components/FrameComponent'
 
 function AllPopQuizView() {
   const heading = [
@@ -29,7 +29,7 @@ function AllPopQuizView() {
 ]
 
   return (
-    <OutFrame>
+    <FrameComponent>
     <div className=' courseview p-0 container-fluid'>
       <div className='d-flex m-0 flex-row justify-content-center'>
         
@@ -51,7 +51,7 @@ function AllPopQuizView() {
         </div>
       </div>
     </div>
-    </OutFrame>
+    </FrameComponent>
   )
 }
 

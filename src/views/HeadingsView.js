@@ -1,5 +1,5 @@
 import { Card } from "react-bootstrap";
-import OutFrame from "../components/OutFrame";
+import FrameComponent from "../components/FrameComponent";
 import { Link } from "react-router-dom";
 import '../assets/CSS/adminDashboard.css'
 import { useState } from 'react';
@@ -38,7 +38,7 @@ const headingName = [
 
 const HeadingsView = () => {
     return (
-        <OutFrame>
+        <FrameComponent>
             <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
                 <div style={{ width: '80%', backgroundColor: '#54849A', margin: 10, color: 'white', borderRadius: 10 }}>
                     <p style={{ textAlign: 'center' }} className="PageHeading">Show all study materials</p>
@@ -57,7 +57,7 @@ const HeadingsView = () => {
 
 
             </div>
-        </OutFrame>
+        </FrameComponent>
 
     )
 }
