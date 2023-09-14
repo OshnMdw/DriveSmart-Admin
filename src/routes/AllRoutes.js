@@ -21,7 +21,7 @@ function AllRoutes() {
   return (
     <Routes>
         <Route element={<PrivateRoutes/>} >
-          <Route path='/' exact element={<AdminPageView />}/>
+          {/* <Route path='/' exact element={<AdminPageView />}/> */}
           <Route path='/editvideo'  element={<EditVideo />}/>
           <Route path='/allquizzes'  element={<AllQuizView />}/>
           <Route path='/allpopquizzes'  element={<AllPopQuizView />}/>
@@ -33,7 +33,7 @@ function AllRoutes() {
           <Route path='/resetPassword' element = {<ResetPassword/>}/>
           <Route path='/passwordVerify'  element={<PasswordVerify/>}/>
           <Route path='/passwordupdated' element={<PasswordUpdated/>}/>
-          <Route path = '/adminDashBoard' element={<AdminDashboard/>}/>
+          <Route path = '/' element={<AdminDashboard/>}/>
           <Route path='/adminDashBoard/headings' element = {<HeadingsView/>}/>
           <Route path='/adminDashBoard/headings/addHeading' element = {<AddHeadingView/>}/>
         </Route>
