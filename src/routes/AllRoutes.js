@@ -34,8 +34,8 @@ function AllRoutes() {
           <Route path='/passwordVerify'  element={<PasswordVerify/>}/>
           <Route path='/passwordupdated' element={<PasswordUpdated/>}/>
           <Route path = '/' element={<AdminDashboard/>}/>
-          <Route path='/adminDashBoard/headings' element = {<HeadingsView/>}/>
-          <Route path='/adminDashBoard/headings/addHeading' element = {<AddHeadingView/>}/>
+          <Route path='/headings' element = {<HeadingsView/>}/>
+          <Route path='/headings/addHeading' element = {<AddHeadingView/>}/>
         </Route>
      </Routes>
   )
