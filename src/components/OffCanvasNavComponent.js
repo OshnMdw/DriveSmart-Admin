@@ -22,7 +22,7 @@ function OffCanvasNavComponent({collapsed}) {
       <ul className="nav nav-pills flex-column mb-auto">
         <span className=' text-info' >MAIN MENU</span>
         <li className="nav-item">
-          <Link to="/dashboard" className="nav-link active" >
+          <Link to="/" className="nav-link active" >
             <i class="bi bi-speedometer2 pe-2"></i>
             Admin-Dashboard
           </Link>

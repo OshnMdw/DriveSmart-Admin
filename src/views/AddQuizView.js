@@ -47,7 +47,7 @@ function AddQuizView() {
                   <Form.Check className=' m-0 pe-1'  type="checkbox" />
                 </div>
                 <div className=' flex-fill'>
-                   <Form.Control  type='text' placeholder='Enter feedback' />
+                   <Form.Control  type='text' placeholder='Enter option' />
                 </div>
               </div>
             </Form.Group>
@@ -61,7 +61,7 @@ function AddQuizView() {
                   <Form.Check className=' m-0 pe-1'  type="checkbox" />
                 </div>
                 <div className=' flex-fill'>
-                   <Form.Control  type='text' placeholder='Enter feedback' />
+                   <Form.Control  type='text' placeholder='Enter option' />
                 </div>
               </div>
             </Form.Group>

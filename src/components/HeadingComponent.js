@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/CSS/headingStyle.css'
 
-function HeadingComponent({heading}) {
+function HeadingComponent({heading, type}) {
 
   return (
     <div style={{userSelect:'none'}} className='mt-3 p-0 mb-3 border border-1  shadow-sm   container rounded-3   justify-content-center'>
@@ -13,10 +13,9 @@ function HeadingComponent({heading}) {
             <h5 className=' col-11 CourseHeading d-flex m-0 flex-row justify-content-between'>
               {heading.name}
               <div>
-                <Link to="/addpopquiz">
+                <Link to={ type ==="quiz"?"/addquiz" : "/addpopquiz"}>
                 <i class="bi bi-pencil-square p-2 " style={{cursor:'pointer'}}
-                        data-bs-toggle="collapse" 
-                        onClick={()=>alert("Edit button clicked!")}>        
+                        data-bs-toggle="collapse">        
                 </i>
                 </Link>
 

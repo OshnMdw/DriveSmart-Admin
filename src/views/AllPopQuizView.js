@@ -44,7 +44,7 @@ function AllPopQuizView() {
                   </div>
                 </div>
             </div>
-            {heading.map((item) =><HeadingComponent key={item.name} heading={item} /> )}
+            {heading.map((item) =><HeadingComponent type="popquiz" key={item.name} heading={item} /> )}
           </div>
           <div className='buttonstyles'>
             <button type="button" class="btn btn-primary btn-circle btn-md" ><Link to="/addpopquiz"><i class="bi bi-plus-lg"></i></Link></button>
