@@ -52,7 +52,10 @@ const HeadingsView = () => {
                     </div>
                 )}
                 <div style={{ display: 'flex',justifyContent : 'flex-end'}}>
-                    <i style={{ fontSize: 50 ,  }} class="bi bi-plus-circle-fill"></i>
+                    <Link to="/headings/addHeading" >
+                        <i style={{ fontSize: 50 ,  }} class="bi bi-plus-circle-fill"></i>
+                    </Link>
+                    
                 </div>
 
 

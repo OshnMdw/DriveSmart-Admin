@@ -1,5 +1,6 @@
 import { Tooltip } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
+import { Link } from 'react-router-dom';
 
 function ShowHeadingComponent({index , title , body}) {
   return (
@@ -18,7 +19,10 @@ function ShowHeadingComponent({index , title , body}) {
                 </div>
                 <div style={{display : 'flex',flex : 1/2,justifyContent : 'flex-end'}}>    
                     <i style={{marginRight : 10}} class="bi bi-trash"></i>
-                    <i class="bi bi-pencil-square"></i>
+                    <Link to={ item === "Quiz" ? '/editquiz' : ((item === "Pop quiz")? '/editpopquiz' : '/editvideo' )}>
+                      <i class="bi bi-pencil-square"></i>
+                    </Link>
+                    
                 </div>
             
             </div>
