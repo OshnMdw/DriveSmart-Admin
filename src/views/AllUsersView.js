@@ -42,7 +42,7 @@ function AllUsersView() {
                   </div>
                 </div>
             </div>
-            {heading.map((item) =><HeadingComponent key={item.name} heading={item} /> )}
+            {heading.map((item) =><HeadingComponent type="user" key={item.name} heading={item} /> )}
           </div>
         </div>
       </div>

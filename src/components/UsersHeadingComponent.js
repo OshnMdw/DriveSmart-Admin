@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../assets/CSS/headingStyle.css'
 
 function UsersHeadingComponent({heading}) {
@@ -16,10 +17,13 @@ function UsersHeadingComponent({heading}) {
                 </div>
                 
               <div>
-                <i class="bi bi-pencil-square p-2 " style={{cursor:'pointer'}}
+                <Link to="/allusers/edit">
+                  <i class="bi bi-pencil-square p-2 " style={{cursor:'pointer'}}
                         data-bs-toggle="collapse" 
-                        onClick={()=>alert("Edit button clicked!")}>        
-                </i>
+                        >        
+                  </i>
+                </Link>
+                
                 <i class="bi bi-trash3 p-2" style={{cursor:'pointer'}}
                         data-bs-toggle="collapse" 
                         onClick={()=>alert("User Removed!")}>        

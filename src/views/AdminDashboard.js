@@ -18,7 +18,7 @@ const AdminDashboard = () => {
                             <Card.Title><p className="CourseHeading" style={{ textAlign: 'center' }}>Handle Study materials</p></Card.Title>
                             <div style={{display : 'flex',flexDirection : 'column',width : '80%',rowGap : 10 , justifyContent : 'center',alignItems:'center'}}>
                             <Link role='button' className="cardButton btn" to='/headings'>Show all headings</Link>
-                            <Link role='button' className="cardButton btn" to='/headings'>Show all practice tests</Link>
+                            <Link role='button' className="cardButton btn" to='/allpracticetests'>Show all practice tests</Link>
                             </div>
                             
                             

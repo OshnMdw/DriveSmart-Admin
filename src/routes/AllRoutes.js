@@ -16,6 +16,9 @@ import AddQuizView from '../views/AddQuizView';
 import AdminDashboard from '../views/AdminDashboard';
 import HeadingsView from '../views/HeadingsView';
 import AddHeadingView from '../views/AddHeadingView';
+import AllPracticeTestView from '../views/AllPracticeTestView';
+import AddPracticeTestView from '../views/AddPracticeTestView';
+import EditUserInfoView from '../views/EditUserInfoView';
 
 function AllRoutes() {
   return (
@@ -26,16 +29,19 @@ function AllRoutes() {
           <Route path='/allquizzes'  element={<AllQuizView />}/>
           <Route path='/allpopquizzes'  element={<AllPopQuizView />}/>
           <Route path='/addpopquiz' element={<AddPopQuizView/>} />
+          <Route path='/addpracticetest' element={<AddPracticeTestView/>} />
           <Route path='/addquiz' element={<AddQuizView/>} />
           <Route path='/allusers'  element={<AllUsersView />}/>
           <Route path='/signUp'  element={<SignUp/>}/>
           <Route path='/login'  element={<Login/>}/>
+          <Route path='/allpracticetests'  element={<AllPracticeTestView/>}/>
           <Route path='/resetPassword' element = {<ResetPassword/>}/>
           <Route path='/passwordVerify'  element={<PasswordVerify/>}/>
           <Route path='/passwordupdated' element={<PasswordUpdated/>}/>
           <Route path = '/' element={<AdminDashboard/>}/>
           <Route path='/headings' element = {<HeadingsView/>}/>
           <Route path='/headings/addHeading' element = {<AddHeadingView/>}/>
+          <Route path = '/allusers/edit' element={<EditUserInfoView/>} />
         </Route>
      </Routes>
   )
