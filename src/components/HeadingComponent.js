@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../assets/CSS/headingStyle.css'
 
 function HeadingComponent({heading}) {
@@ -12,14 +13,19 @@ function HeadingComponent({heading}) {
             <h5 className=' col-11 CourseHeading d-flex m-0 flex-row justify-content-between'>
               {heading.name}
               <div>
+                <Link to="/addpopquiz">
                 <i class="bi bi-pencil-square p-2 " style={{cursor:'pointer'}}
                         data-bs-toggle="collapse" 
                         onClick={()=>alert("Edit button clicked!")}>        
                 </i>
+                </Link>
+
+                
                 <i class="bi bi-trash3 p-2" style={{cursor:'pointer'}}
                         data-bs-toggle="collapse" 
                         onClick={()=>alert("Quiz Deleted!")}>        
                 </i>
+                
               </div>    
             </h5>
           </div>

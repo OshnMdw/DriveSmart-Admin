@@ -19,7 +19,7 @@ function ShowHeadingComponent({index , title , body}) {
                 </div>
                 <div style={{display : 'flex',flex : 1/2,justifyContent : 'flex-end'}}>    
                     <i style={{marginRight : 10}} class="bi bi-trash"></i>
-                    <Link to={ item === "Quiz" ? '/editquiz' : ((item === "Pop quiz")? '/editpopquiz' : '/editvideo' )}>
+                    <Link to={ item === "Quiz" ? '/allquizzes' : ((item === "Pop quiz")? '/allpopquizzes' : '/editvideo' )}>
                       <i class="bi bi-pencil-square"></i>
                     </Link>
                     

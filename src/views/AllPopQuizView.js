@@ -2,6 +2,7 @@ import React from 'react'
 import HeadingComponent from '../components/HeadingComponent.js'
 import '../assets/CSS/allpopquizStyle.css'
 import FrameComponent from '../components/FrameComponent'
+import { Link } from 'react-router-dom'
 
 function AllPopQuizView() {
   const heading = [
@@ -46,7 +47,7 @@ function AllPopQuizView() {
             {heading.map((item) =><HeadingComponent key={item.name} heading={item} /> )}
           </div>
           <div className='buttonstyles'>
-            <button type="button" class="btn btn-primary btn-circle btn-md" onClick={()=>alert("Add button clicked!")}><i class="bi bi-plus-lg"></i></button>
+            <button type="button" class="btn btn-primary btn-circle btn-md" ><Link to="/addpopquiz"><i class="bi bi-plus-lg"></i></Link></button>
           </div>
         </div>
       </div>
