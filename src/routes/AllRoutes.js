@@ -19,6 +19,7 @@ import AddHeadingView from '../views/AddHeadingView';
 import AllPracticeTestView from '../views/AllPracticeTestView';
 import AddPracticeTestView from '../views/AddPracticeTestView';
 import EditUserInfoView from '../views/EditUserInfoView';
+import ComplaintsView from '../views/ComplaintsView';
 
 function AllRoutes() {
   return (
@@ -42,6 +43,7 @@ function AllRoutes() {
           <Route path='/headings' element = {<HeadingsView/>}/>
           <Route path='/headings/addHeading' element = {<AddHeadingView/>}/>
           <Route path = '/allusers/edit' element={<EditUserInfoView/>} />
+          <Route path = '/complaintsView' element={<ComplaintsView/>}/>
         </Route>
      </Routes>
   )
