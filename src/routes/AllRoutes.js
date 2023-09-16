@@ -22,6 +22,7 @@ import EditUserInfoView from '../views/EditUserInfoView';
 import ComplaintsView from '../views/ComplaintsView';
 import ReportsView from '../views/ReportsView';
 import RefundView from '../views/RefundView';
+import IncomeView from '../views/IncomeView';
 
 function AllRoutes() {
   return (
@@ -47,7 +48,8 @@ function AllRoutes() {
           <Route path = '/allusers/edit' element={<EditUserInfoView/>} />
           <Route path = '/complaintsView' element={<ComplaintsView/>}/>
           <Route path = '/refund' element={<RefundView/>}/>
-          <Route path = '/dashboard/reports' element={<ReportsView/>}/>
+          <Route path = '/income' element={<IncomeView/>}/>
+          <Route path = '/reports' element={<ReportsView/>}/>
         </Route>
      </Routes>
   )

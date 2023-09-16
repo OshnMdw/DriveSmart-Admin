@@ -25,20 +25,23 @@ const AdminDashboard = () => {
                             <Card.Title><p className="CourseHeading" style={{ textAlign: 'center' }}>User Management</p></Card.Title>
                             <div style={{display : 'flex',flexDirection : 'column',width : '80%',rowGap : 10 , justifyContent : 'center',alignItems:'center'}}>
                             <Link role='button' className="cardButton btn" to='/allusers'>Show all users</Link>
-                            <Link role='button' className="cardButton btn" to='/headings'>Show all complaints</Link>
-                            <Link role='button' className="cardButton btn" to='/headings'>Show all refund requests</Link>
+                            <Link role='button' className="cardButton btn" to='/complaintsView'>Show all complaints</Link>
+                            <Link role='button' className="cardButton btn" to='/refund'>Show all refund requests</Link>
                             </div>
                         </Card.Body>
                     </Card>
 
                     <Card style={{width : '80%', border: 'none', boxShadow: 2,margin : 10}}>
                         <Card.Body style={{display : 'flex',flexDirection : 'column',width : '100%',justifyContent : 'center',alignItems : 'center'}}>
-                            <Card.Title><p className="CourseHeading" style={{ textAlign: 'center' }}>Reports</p></Card.Title>
+                            <Card.Title><p className="CourseHeading" style={{ textAlign: 'center' }}>User Analytics</p></Card.Title>
                             <div style={{display : 'flex',flexDirection : 'column',width : '80%',rowGap : 10 , justifyContent : 'center',alignItems:'center'}}>
-                            <Link role='button' className="cardButton btn" to='/dashboard/reports'>Generate reports</Link>
+                            <Link role='button' className="cardButton btn" to='/reports'>Sign-up Growth</Link>
+                            <Link role='button' className="cardButton btn" to='/income'>Upgrade Income</Link>
                             </div>
                         </Card.Body>
                     </Card>
+
+                    
 
             </div>
         </FrameComponent>
