@@ -2,6 +2,8 @@ import React from 'react'
 import HeadingComponent from '../components/HeadingComponent.js'
 import '../assets/CSS/allquizStyle.css'
 import FrameComponent from '../components/FrameComponent'
+import { Link } from 'react-router-dom'
+
 function AllQuizView() {
   const heading = [
     {
@@ -44,9 +46,12 @@ function AllQuizView() {
             </div>
             {heading.map((item) =><HeadingComponent key={item.name} type="quiz" heading={item} /> )}
           </div>
-          <div className='buttonstyles'>
-            <button type="button" class="btn btn-primary btn-circle btn-md" onClick={()=>alert("Add button clicked!")}><i class="bi bi-plus-lg"></i></button>
-          </div>
+          <div style={{ display: 'flex',justifyContent : 'flex-end'}}>
+                    <Link to="/addquiz" >
+                        <i style={{ fontSize: 50 ,  }} class="bi bi-plus-circle-fill"></i>
+                    </Link>
+                    
+                </div>
         </div>
       </div>
     </div>
