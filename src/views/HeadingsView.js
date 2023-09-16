@@ -41,8 +41,8 @@ const HeadingsView = () => {
         <FrameComponent>
             <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
                 <div style={{ width: '80%', backgroundColor: '#54849A', margin: 10, color: 'white', borderRadius: 10 }}>
-                    <p style={{ textAlign: 'center' }} className="PageHeading">Show all study materials</p>
-                    <p style={{ textAlign: 'center' }} className="CourseHeading">Show all study materials</p>
+                    <p style={{ textAlign: 'center' }} className="PageHeading">All Study Materials</p>
+                    <p style={{ textAlign: 'center' }} className="CourseHeading">All Headings</p>
                 </div>
 
                 {headingName.map((heading) =>

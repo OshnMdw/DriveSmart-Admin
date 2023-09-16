@@ -54,7 +54,7 @@ function AllPracticeTestView() {
                         </div>
                         <div>
                             <span>
-                                <Link to="/allquizzes">
+                                <Link to="/addquiz">
                                     <i class="bi bi-pencil-square p-2 " style={{cursor:'pointer'}}/>
                                 </Link>
                             </span>

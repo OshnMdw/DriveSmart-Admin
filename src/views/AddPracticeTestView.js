@@ -3,7 +3,6 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import FrameComponent from '../components/FrameComponent';
-import TinyMCEEditor from '../components/TinyMCEEditor';
 
 function AddPracticeTestView() {
   return (
@@ -23,9 +22,6 @@ function AddPracticeTestView() {
                     </Form.Group>
                 </Col>
             </Row>
-            
-
-            
             <Row>
                 <Button className=' mx-auto col-6 ' variant="success" >
                     Save Changes

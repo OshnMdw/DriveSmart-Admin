@@ -46,9 +46,12 @@ function AllPopQuizView() {
             </div>
             {heading.map((item) =><HeadingComponent type="popquiz" key={item.name} heading={item} /> )}
           </div>
-          <div className='buttonstyles'>
-            <button type="button" class="btn btn-primary btn-circle btn-md" ><Link to="/addpopquiz"><i class="bi bi-plus-lg"></i></Link></button>
-          </div>
+          <div style={{ display: 'flex',justifyContent : 'flex-end'}}>
+                    <Link to="/addpopquiz" >
+                        <i style={{ fontSize: 50 ,  }} class="bi bi-plus-circle-fill"></i>
+                    </Link>
+                    
+                </div>
         </div>
       </div>
     </div>
