@@ -21,22 +21,52 @@ function IncomeView() {
       </thead>
       <tbody>
         <tr>
-          <td>1</td>
+          <td>January</td>
           <td>20,000/=</td>
           <td>1,000/=</td>
           <td>19,000/=</td>
         </tr>
         <tr>
-          <td>2</td>
+          <td>February</td>
           <td>40,000/=</td>
           <td>4,000/=</td>
           <td>36,000/=</td>
         </tr>
         <tr>
-          <td>3</td>
+          <td>March</td>
           <td>30,000/=</td>
           <td>5,000/=</td>
           <td>25,000/=</td>
+        </tr>
+        <tr>
+          <td>April</td>
+          <td>35,000/=</td>
+          <td>5,000/=</td>
+          <td>30,000/=</td>
+        </tr>
+        <tr>
+          <td>May</td>
+          <td>40,000/=</td>
+          <td>2,000/=</td>
+          <td>38,000/=</td>
+        </tr>
+        <tr>
+          <td>June</td>
+          <td>30,000/=</td>
+          <td>2,000/=</td>
+          <td>28,000/=</td>
+        </tr>
+        <tr>
+          <td>July</td>
+          <td>20,000/=</td>
+          <td>2,000/=</td>
+          <td>18,000/=</td>
+        </tr>
+        <tr>
+          <td>August</td>
+          <td>22,000/=</td>
+          <td>5,000/=</td>
+          <td>17,000/=</td>
         </tr>
       </tbody>
     </Table>
