@@ -10,23 +10,23 @@ function UserInfo({showProfile}) {
         <ul className="nav nav-pills flex-column mb-auto ">
           
           <li className="nav-item">
-            <Link to="/dashboard" className="nav-link active" >
+            <Link to="/" className="nav-link active" >
               <i class="bi bi-speedometer2 pe-2"></i>
               Admin-Dashboard
             </Link>
           </li>
           <li>
-            <Link to="/#contactus" className="nav-link text-dark">
+            <Link to="/settings" className="nav-link text-dark">
               <i class="bi bi-person pe-2"></i>
               Profile
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/#contactus" className="nav-link text-dark">
               <i class="bi bi-chat-left pe-2"></i>
               Contact Admin
             </Link>
-          </li>
+          </li> */}
         </ul>
         <hr/>
         <ul className="nav nav-pills flex-column mb-auto">
