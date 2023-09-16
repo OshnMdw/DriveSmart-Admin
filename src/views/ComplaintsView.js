@@ -1,4 +1,5 @@
 import ComplaintsCard from "../components/ComplaintsCard";
+import FrameComponent from "../components/FrameComponent";
 
 
 
@@ -31,7 +32,8 @@ const ComplainList = [
 
 const ComplaintsView = () => {
      return(
-        <div>
+        <FrameComponent>
+        <div className=" container col-10 mx-auto">
         
         {ComplainList.map((complaint)=>
         <ComplaintsCard key={complaint.id} date={complaint.date} sender={complaint.sender} complaintsDescription={complaint.complaint}/>
@@ -39,7 +41,7 @@ const ComplaintsView = () => {
        
         
         </div>
-
+    </FrameComponent>
      )
 }
 
