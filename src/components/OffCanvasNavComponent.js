@@ -28,30 +28,24 @@ function OffCanvasNavComponent({collapsed}) {
           </Link>
         </li>
         <li>
-          <Link to="/dashboard/course" className="nav-link text-dark">
+          <Link to="/headings" className="nav-link text-dark">
             <i class="bi bi-mortarboard pe-2"></i>
             Study Materials
           </Link>
         </li>
         <li>
-          <Link to="/dashboard/premium" className="nav-link text-dark">
+          <Link to="/refund" className="nav-link text-dark">
             <i class="bi bi-credit-card pe-2"></i>
-            User Management
+            Refunds
           </Link>
         </li>
         <li>
-          <Link to="/dashboard/contactus" className="nav-link text-dark">
+          <Link to="/complaintsView" className="nav-link text-dark">
             <i class="bi bi-chat-left pe-2"></i>
             Customer Support
           </Link>
         </li>
-        <li>
-          
-          <Link to="/dashboard/reports" className="nav-link text-dark">
-            <i class="bi bi-file-person pe-2"></i>
-            Reports
-          </Link>
-        </li>
+        
       </ul>
 
       <hr/>

@@ -12,7 +12,7 @@ function UserInfo({showProfile}) {
           <li className="nav-item">
             <Link to="/dashboard" className="nav-link active" >
               <i class="bi bi-speedometer2 pe-2"></i>
-              Dashboard
+              Admin-Dashboard
             </Link>
           </li>
           <li>
@@ -24,7 +24,7 @@ function UserInfo({showProfile}) {
           <li>
             <Link to="/#contactus" className="nav-link text-dark">
               <i class="bi bi-chat-left pe-2"></i>
-              Contact us
+              Contact Admin
             </Link>
           </li>
         </ul>
