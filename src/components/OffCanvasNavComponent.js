@@ -42,7 +42,7 @@ function OffCanvasNavComponent({ collapsed }) {
           </Link>
         </li>
         <li>
-          <Link to="/dashboard/premium" className="nav-link text-dark">
+          <Link to="/refund" className="nav-link text-dark">
             <i class="bi bi-credit-card pe-2"></i>
             Refunds
           </Link>
@@ -55,9 +55,9 @@ function OffCanvasNavComponent({ collapsed }) {
         </li>
         <li>
           
-          <Link to="/dashboard/reports" className="nav-link text-dark">
+          <Link to="/reports" className="nav-link text-dark">
             <i class="bi bi-file-person pe-2"></i>
-            Reports
+            Sign-Up Growth
           </Link>
         </li>
       </ul>
