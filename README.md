@@ -53,7 +53,7 @@ With its holistic approach to driving license exam preparation, user convenience
   <div align="left" >
     04)Developed & Designed by: 
     <ul>
-      <li><a href="https://github.com/OshnMdw">Madawa G.C.H.O</a></li>
+      <li><a href="https://github.com/OshnMdw">Madawa G.C.H</a></li>
       <li><a href="https://github.com/kamadi2000">Liyanage K.</a></li>
       <li><a href="https://github.com/luxshan2000">Luxshan T.</a></li>
     </ul>
