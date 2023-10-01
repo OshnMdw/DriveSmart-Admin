@@ -1,6 +1,6 @@
 <div>
   <div align="center">
-    <h1>DriveSmart</h1>
+    <h1>DriveSmart-Admin</h1>
     <hr/>
     <hr />
   </div>
