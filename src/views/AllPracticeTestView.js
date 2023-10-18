@@ -3,10 +3,6 @@ import { Card, Container, Row,Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import FrameComponent from '../components/FrameComponent'
 
-
-
-
-
 function AllPracticeTestView() {
     const [tests,setTests] = useState([])
     useEffect(()=>{

@@ -1,10 +1,7 @@
-import { Card } from "react-bootstrap";
+
 import FrameComponent from "../components/FrameComponent";
 import { Link } from "react-router-dom";
 import '../assets/CSS/adminDashboard.css'
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Collapse from 'react-bootstrap/Collapse';
 import ShowHeadingComponent from "../components/ShowHeadingComponent";
 
 const headingName = [
