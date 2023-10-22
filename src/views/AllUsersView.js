@@ -53,12 +53,12 @@ function AllUsersView() {
                 </div>
               </div>
             </div>
-            <table className='table table-hover table-striped table-bordered'>
+            {/* <table className='table table-hover table-striped table-bordered'>
               <thead className='table-dark'>
                 <tr>
                   <th scope='col'>Name</th>
                   <th scope='col'>Email</th>
-                  {/* <th scope='col'>Is Admin</th> */}
+                  
                 </tr>
               </thead>
               <tbody>
@@ -67,16 +67,16 @@ function AllUsersView() {
                     <tr>
                       <td>{user.name}</td>
                       <td>{user.email}</td>
-                      {/* <td>{user.isVerfied}</td> */}
+                      
                     </tr>
                   )
                 })}
               </tbody>
-            </table>
+            </table> */}
             {/* {users.map(user => {
               return user.name
             })} */}
-            {/* {heading.map((item) =><HeadingComponent type="user" key={item.name} heading={item} /> )} */}
+            {users.map((item) =><HeadingComponent type="user" key={item.name} heading={item} /> )}
           </div>
         </div>
       </div>
