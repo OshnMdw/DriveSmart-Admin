@@ -7,12 +7,12 @@ import { useEffect, useState } from 'react'
 
 function AllUsersView() {
 
-const [users, setUsers] = useState([])
-useEffect(() => {
-  axios.get('http://localhost:5000/getUsers')
-  .then(users =>setUsers(users.data))
-  .catch(err => console.log(err))
-},[])
+  const [users, setUsers] = useState([])
+  useEffect(() => {
+    axios.get('http://localhost:5000/getUsers')
+    .then(users =>setUsers(users.data))
+    .catch(err => console.log(err))
+  },[])
 
 //   const heading = [
 //     {

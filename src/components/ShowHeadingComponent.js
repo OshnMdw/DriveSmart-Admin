@@ -2,7 +2,7 @@ import { Tooltip } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-router-dom';
 
-function ShowHeadingComponent({index , title , body}) {
+function ShowHeadingComponent({index,title, body}) {
   return (
     <Accordion style={{margin : 10}}>
       <Accordion.Item eventKey={index}>
