@@ -9,7 +9,7 @@ function OffCanvasNavComponent({ collapsed }) {
   return (
     <div style={{width:isSmall ? `${collapsed? '100%': '0'}` : `${collapsed? 200: 0}px`, overflowX:'hidden', transition: `width ${isSmall? '100ms' :'200ms'} linear`}}  className="d-flex  flex-column flex-shrink-0 vh-100 m-0">
     <div className=''>
-      <Link to="/" className=" pt-2 text-center d-flex align-items-center  my-5 me-md-auto text-dark text-decoration-none">
+      <Link to="/" className=" pt-2 text-center d-flex align-items-center  my-4 me-md-auto text-dark text-decoration-none">
         {/* <i style={{fontSize:"10em"}} class="bi w-100  bi-person-circle"/> */}
         <img src={icon}  width="200px"/>
       </Link>
