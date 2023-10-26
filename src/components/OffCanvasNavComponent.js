@@ -60,10 +60,10 @@ function OffCanvasNavComponent({ collapsed }) {
       <ul className="nav nav-pills flex-column mb-auto">
         <span className=" text-info">PREFERENCE</span>
         <li className="nav-item">
-          <a href="#" className={`nav-link ${activeTab === "/dashboard" ? "active" : ""}`} aria-current="page">
+          <Link to="/updateProfile" className={`nav-link ${activeTab === "/updateProfile" ? "active" : ""}`} aria-current="page">
             <i class="bi bi-gear pe-2 text-dark"></i>
             <span className="text-dark">Settings</span>
-          </a>
+          </Link>
         </li>
       </ul>
       <hr />

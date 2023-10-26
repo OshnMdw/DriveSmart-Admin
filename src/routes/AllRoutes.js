@@ -23,6 +23,7 @@ import ComplaintsView from '../views/ComplaintsView';
 import ReportsView from '../views/ReportsView';
 import RefundView from '../views/RefundView';
 import IncomeView from '../views/IncomeView';
+import UpdateProfile from '../views/UpdateProfile';
 
 function AllRoutes() {
   return (
@@ -36,6 +37,7 @@ function AllRoutes() {
           <Route path='/addpracticetest' element={<AddPracticeTestView/>} />
           <Route path='/addquiz' element={<AddQuizView/>} />
           <Route path='/allusers'  element={<AllUsersView />}/>
+          <Route path='/updateProfile' element={<UpdateProfile/>}/>
           <Route path='/signUp'  element={<SignUp/>}/>
           <Route path='/login'  element={<Login/>}/>
           <Route path='/allpracticetests'  element={<AllPracticeTestView/>}/>
