@@ -1,7 +1,10 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { Editor } from '@tinymce/tinymce-react';
 import PlaceHolderConponent from './PlaceHolderConponent';
 import { Row } from 'react-bootstrap';
+import axios from "axios";
+import { useLocation } from "react-router-dom";
+
 function TinyMCEEditor() {
   const editorRef = useRef(null);
   const [isloaded,setIsloaded] = useState(false);
@@ -10,6 +13,17 @@ function TinyMCEEditor() {
       console.log(editorRef.current.getContent());
     }
   };
+
+  const { search } = useLocation();
+
+  const query = React.useMemo(() => new URLSearchParams(search), [search]);
+  const [headings, setHeadings] = useState([]);
+  useEffect(() => {
+    axios
+      .get("http://localhost:5000/getTopics")
+      .then((headings) => setHeadings(headings.data))
+      .catch((err) => console.log(err));
+  }, []);
 
   return (
     <>
@@ -21,7 +35,7 @@ function TinyMCEEditor() {
         onInit={(evt, editor) => {
             setIsloaded(true)
             editorRef.current = editor}}
-        initialValue=""
+        initialValue={headings.find(item => item.no==query.get("id"))?.script}
         init={{
           height: 500,
           menubar: false,

@@ -58,7 +58,7 @@ const HeadingsView = () => {
                     return(
 
                         <div style={{ width: '100%'}} >
-                            <ShowHeadingComponent index={heading.no} title={heading.title} body={[heading.videoUrl, heading.script]} />
+                            <ShowHeadingComponent index={heading.no} title={heading.title} body={['Study Material', 'Quiz', 'Pop Quiz']} />
                             
                         </div>
                     )
