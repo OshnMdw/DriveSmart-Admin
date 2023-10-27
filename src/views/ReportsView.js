@@ -7,39 +7,43 @@ const BarRechartComponent = () => {
   const data = [
     {
       name: "January",
-      value: 2345
+      value: 0
     },
     {
       name: "February",
-      value: 1855
+      value: 0
     },
     {
       name: "March",
-      value: 3280
+      value: 0
     },
     {
       name: "April",
-      value: 980
+      value: 0
     },
     {
       name: "May",
-      value: 1320
+      value: 0
     },
     {
       name: "June",
-      value: 3100
+      value: 0
     },
     {
         name: "July",
-        value: 2500
+        value: 0
       },
       {
         name: "August",
-        value: 1900
+        value: 0
       },
       {
         name: "September",
-        value: 350
+        value: 3
+      },
+      {
+        name: "Octomber",
+        value: 7
       }
   ];
 
